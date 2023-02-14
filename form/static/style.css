@@ -1,0 +1,44 @@
+body {
+    font: normal 18px/1.5 "Fira Sans", "Helvetica Neue", sans-serif;
+    background: #3AAFAB;
+    color: #fff;
+    padding: 50px 0;
+  }
+h2{
+    padding-left: 100px;
+}
+form {
+    border-radius: 5px;
+    background-color: #354045;
+    padding: 20px;
+    padding-left: 137px;
+  }
+  
+
+  input {
+    width: 45%;
+    padding: 12px;
+    border: 1px solid rgb(168, 166, 166);
+    border-radius: 4px;
+    resize: vertical;
+  }
+textarea {
+    width:45%;
+    padding: 12px;
+    border: 1px solid rgb(168, 166, 166);
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label{
+    padding: 20px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=radio],input[type=checkbox]{
+    width: 1%;
+    padding-left: 0%;
+    border: 1px solid rgb(168, 166, 166);
+    border-radius: 4px;
+    resize: vertical;
+}   

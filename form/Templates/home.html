@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Registration</title>
+  <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+  <h2 class='heading'>Registration form</h2>
+  <form action="" method="GET">
+    <div class="frame">
+        
+    <div><lable for="firstname">First name:
+    <input type="text" name="firstname" id="firstname" ></lable><br><br></div>
+    <div><lable for="lastname">Last name:
+    <input type="text" name="lastname" id="lastname"><br><br></lable></div>
+    
+    <div><lable>Gender:
+        <input type="radio" name="gender" value="male" checked> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other</lable>
+    </div>
+    <div><label for="phone">Enter your phone number:</label>
+        <input type="tel" id="phone" name="phone" minlength="8" maxlength="10">                                                                                                                 
+    </div>
+        <div> <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email"> 
+        </div>
+            <div><label for="birthday">Date of birth:</label>
+            <input type="date" id="birthday" name="birthday">
+        </div>
+        <div>
+            <label for="address">Address:</label><BR>
+            <textarea rows="4" cols="50" name="address" ></textarea>
+        </div>
+        <div><label for="file">Identification proof:</label>
+            <input type="file" id="file" name="file">
+        </div>
+        <div>
+        
+            <label for="state" >Select location of event:</label>
+            <select name="state">
+                <option value="" disabled selected hidden>Select</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Goa">Goa</option>
+                <option value="Bombay">Bombay</option>
+                <option value="Pune">Pune</option>
+              </select>
+            </div>
+        <div>
+            <label>Additonal services</label>
+                <input type="checkbox" id="room" name="service" value="room">
+                <label for="room"> Accommodation</label>                                                                                                                                                                                                                            
+                <input type="checkbox" id="cab" name="service" value="cab"> 
+                <label for="cab">Cab</label>
+                <input type="checkbox" id="vip" name="service" value="vip">
+                <label for="vip"> Vip pass</label>
+                </div>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset">
+        </div>
+            
+    </div>
+  </form>
+</body>
+</html>
